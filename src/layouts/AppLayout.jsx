@@ -17,8 +17,8 @@ function AppLayout({ children }) {
         {/* back button */}
         <BackButton />
 
-        <div className="block w-full text-primary p-2 lg:w-10/12 mx-auto bg-white rounded shadow">
-            { isLoading ? <div className='mx-auto text-center'><Loading /></div> : children }
+        <div className="block w-full text-gray-600 p-2 lg:w-10/12 mx-auto bg-white rounded shadow">
+            { isLoading ? <Loading /> : children }
         </div>
 
     </div>
